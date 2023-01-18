@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/andrew/Projects/COMP362/LAB4/monitor/cmake-build-debug",
+  "command": "/usr/bin/cc    -D_FILE_OFFSET_BITS=64 -g -Wall --pedantic -g -O0 -D_DEBUG -std=gnu11 -o CMakeFiles/monitor.dir/monitor.c.o -c /home/andrew/Projects/COMP362/LAB4/monitor/monitor.c",
+  "file": "/home/andrew/Projects/COMP362/LAB4/monitor/monitor.c"
+},
+{
+  "directory": "/home/andrew/Projects/COMP362/LAB4/monitor/cmake-build-debug",
+  "command": "/usr/bin/cc    -D_FILE_OFFSET_BITS=64 -g -Wall --pedantic -g -O0 -D_DEBUG -std=gnu11 -o CMakeFiles/node.dir/node.c.o -c /home/andrew/Projects/COMP362/LAB4/monitor/node.c",
+  "file": "/home/andrew/Projects/COMP362/LAB4/monitor/node.c"
+}
+]

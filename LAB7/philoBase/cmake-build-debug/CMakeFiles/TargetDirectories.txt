@@ -1,0 +1,3 @@
+/home/andrew/Projects/COMP362/LAB7/philoBase/cmake-build-debug/CMakeFiles/philosophers.dir
+/home/andrew/Projects/COMP362/LAB7/philoBase/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/andrew/Projects/COMP362/LAB7/philoBase/cmake-build-debug/CMakeFiles/rebuild_cache.dir

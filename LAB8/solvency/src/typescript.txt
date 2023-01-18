@@ -1,0 +1,71 @@
+Script started on 2022-10-18 00:44:36-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="196" LINES="73"]
+[?2004h]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB8/solvency/src[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB8/solvency/src[00m$ makecmake -DCMAKE_BUILD_TYPE=Debug ..[15P./philosophers 3 1[12Pcd bin[1Pbin[1Pmakecd ..[1Pmakecdbin bin./philosophers 3 1cmake -DCMAKE_BUILD_TYPE=Debug ..make[K[K./solvency in.txt
+[?2004lTeller: How may I help you? > st
+REQUEST: ST
+  Available = [  1500.00 1000.00  500.00]
+ Allocation = [     0.00    0.00    0.00] [     0.00    0.00    0.00] [     0.00    0.00    0.00] [     0.00    0.00    0.00] [     0.00    0.00    0.00]
+        Max = [   700.00  500.00  300.00] [   300.00  200.00  200.00] [   900.00    0.00  200.00] [   200.00  200.00  200.00] [   400.00  300.00  300.00]
+       Need = [   700.00  500.00  300.00] [   300.00  200.00  200.00] [   900.00    0.00  200.00] [   200.00  200.00  200.00] [   400.00  300.00  300.00]
+Teller: How may I help you? > bo 0 10 200 300
+REQUEST: BO
+CLIENT 0:  [    10.00  200.00  300.00]
+The customers that could be satisfied (in order): 0 1 2 3 4 
+*APPROVED*
+Teller: How may I help you? > re 0 0 20 150
+REQUEST: RE
+CLIENT 0:  [     0.00   20.00  150.00]
+*APPROVED*
+Teller: How may I help you? > st
+REQUEST: ST
+  Available = [  1490.00  820.00  350.00]
+ Allocation = [    10.00  180.00  150.00] [     0.00    0.00    0.00] [     0.00    0.00    0.00] [     0.00    0.00    0.00] [     0.00    0.00    0.00]
+        Max = [   700.00  500.00  300.00] [   300.00  200.00  200.00] [   900.00    0.00  200.00] [   200.00  200.00  200.00] [   400.00  300.00  300.00]
+       Need = [   690.00  320.00  150.00] [   300.00  200.00  200.00] [   900.00    0.00  200.00] [   200.00  200.00  200.00] [   400.00  300.00  300.00]
+Teller: How may I help you? > bo 1 500 400 200
+REQUEST: BO
+CLIENT 1:  [   500.00  400.00  200.00]
+*DENIED*
+Teller: How may I help you? > re 2 100 0 0
+REQUEST: RE
+CLIENT 2:  [   100.00    0.00    0.00]
+*DENIED*
+Teller: How may I help you? > bo 4 0 0 300
+REQUEST: BO
+CLIENT 4:  [     0.00    0.00  300.00]
+The customers that could be satisfied (in order): 0 1 2 3 4 
+*APPROVED*
+Teller: How may I help you? > bo 2 0 0 300
+REQUEST: BO
+CLIENT 2:  [     0.00    0.00  300.00]
+*DENIED*
+Teller: How may I help you? > st
+REQUEST: ST
+  Available = [  1590.00  820.00   50.00]
+ Allocation = [   -90.00  180.00  450.00] [     0.00    0.00    0.00] [     0.00    0.00    0.00] [     0.00    0.00    0.00] [     0.00    0.00    0.00]
+        Max = [   700.00  500.00  300.00] [   300.00  200.00  200.00] [   900.00    0.00  200.00] [   200.00  200.00  200.00] [   400.00  300.00  300.00]
+       Need = [   790.00  320.00 -150.00] [   300.00  200.00  200.00] [   900.00    0.00  200.00] [   200.00  200.00  200.00] [   400.00  300.00  300.00]
+Teller: How may I help you? > bo 2 0 20 0 0
+REQUEST: BO
+CLIENT 2:  [    20.00    0.00    0.00]
+The customers that could be satisfied (in order): 0 1 2 3 4 
+*APPROVED*
+Teller: How may I help you? > st
+REQUEST: ST
+  Available = [  1570.00  820.00   50.00]
+ Allocation = [   -70.00  180.00  450.00] [     0.00    0.00    0.00] [     0.00    0.00    0.00] [     0.00    0.00    0.00] [     0.00    0.00    0.00]
+        Max = [   700.00  500.00  300.00] [   300.00  200.00  200.00] [   900.00    0.00  200.00] [   200.00  200.00  200.00] [   400.00  300.00  300.00]
+       Need = [   770.00  320.00 -150.00] [   300.00  200.00  200.00] [   900.00    0.00  200.00] [   200.00  200.00  200.00] [   400.00  300.00  300.00]
+Teller: How may I help you? > re 2 20 0 0
+REQUEST: RE
+CLIENT 2:  [    20.00    0.00    0.00]
+*DENIED*
+Teller: How may I help you? > Qi uit
+REQUEST: QUIT
+  Available = [  1590.00  820.00   50.00]
+ Allocation = [   -90.00  180.00  450.00] [     0.00    0.00    0.00] [     0.00    0.00    0.00] [     0.00    0.00    0.00] [     0.00    0.00    0.00]
+        Max = [   700.00  500.00  300.00] [   300.00  200.00  200.00] [   900.00    0.00  200.00] [   200.00  200.00  200.00] [   400.00  300.00  300.00]
+       Need = [   790.00  320.00 -150.00] [   300.00  200.00  200.00] [   900.00    0.00  200.00] [   200.00  200.00  200.00] [   400.00  300.00  300.00]
+[?2004h]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB8/solvency/src[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB8/solvency/src[00m$ exit
+[?2004lexit
+
+Script done on 2022-10-18 00:47:51-07:00 [COMMAND_EXIT_CODE="1"]

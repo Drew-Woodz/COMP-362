@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/andrew/Projects/COMP362/LAB7/philoBase/cmake-build-debug",
+  "command": "/usr/bin/cc    -D_FILE_OFFSET_BITS=64 -g -Wall --pedantic -g -O0 -D_DEBUG -std=gnu11 -o CMakeFiles/philosophers.dir/philoBase.c.o -c /home/andrew/Projects/COMP362/LAB7/philoBase/philoBase.c",
+  "file": "/home/andrew/Projects/COMP362/LAB7/philoBase/philoBase.c"
+}
+]

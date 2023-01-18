@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/andrew/Projects/COMP362/LAB6/cpuScheduler/cmake-build-debug",
+  "command": "/usr/bin/cc  -I/home/andrew/Projects/COMP362/LAB6/cpuScheduler/inc  -D_FILE_OFFSET_BITS=64 -g -Wall --pedantic -g -O0 -D_DEBUG -std=gnu11 -o CMakeFiles/cpuScheduler.dir/src/cpuScheduler.c.o -c /home/andrew/Projects/COMP362/LAB6/cpuScheduler/src/cpuScheduler.c",
+  "file": "/home/andrew/Projects/COMP362/LAB6/cpuScheduler/src/cpuScheduler.c"
+},
+{
+  "directory": "/home/andrew/Projects/COMP362/LAB6/cpuScheduler/cmake-build-debug",
+  "command": "/usr/bin/cc  -I/home/andrew/Projects/COMP362/LAB6/cpuScheduler/inc  -D_FILE_OFFSET_BITS=64 -g -Wall --pedantic -g -O0 -D_DEBUG -std=gnu11 -o CMakeFiles/cpuScheduler.dir/src/processQueue.c.o -c /home/andrew/Projects/COMP362/LAB6/cpuScheduler/src/processQueue.c",
+  "file": "/home/andrew/Projects/COMP362/LAB6/cpuScheduler/src/processQueue.c"
+}
+]

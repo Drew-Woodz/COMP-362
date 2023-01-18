@@ -1,0 +1,4 @@
+/home/andrew/Projects/COMP362/Project01/disk/build/CMakeFiles/disk.dir
+/home/andrew/Projects/COMP362/Project01/disk/build/CMakeFiles/disk_timer.dir
+/home/andrew/Projects/COMP362/Project01/disk/build/CMakeFiles/edit_cache.dir
+/home/andrew/Projects/COMP362/Project01/disk/build/CMakeFiles/rebuild_cache.dir

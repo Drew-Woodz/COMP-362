@@ -1,0 +1,4 @@
+/home/andrew/Projects/COMP362/LAB4/monitor/cmake-build-debug/CMakeFiles/monitor.dir
+/home/andrew/Projects/COMP362/LAB4/monitor/cmake-build-debug/CMakeFiles/node.dir
+/home/andrew/Projects/COMP362/LAB4/monitor/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/andrew/Projects/COMP362/LAB4/monitor/cmake-build-debug/CMakeFiles/rebuild_cache.dir

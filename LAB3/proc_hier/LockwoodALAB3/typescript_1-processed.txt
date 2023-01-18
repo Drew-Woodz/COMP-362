@@ -1,0 +1,39 @@
+Script started on 2022-09-11 00:53:55-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="96" LINES="24"]
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB3/proc_hier/bin$ learrojects/COMP362/LAB3/proc_hier/
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB3/proc_hier/bin$ ps -elf | grep "proc_hier\|iam"
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB3/proc_hier/bin$ clear
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB3/proc_hier/bin$
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB3/proc_hier/bin$ $ sudo gdb -p <process id> iam
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB3/proc_hier/bin$ sudo gdb -p 10329 iam
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB3/proc_hier/bin$ lear
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB3/proc_hier/bin$ ps -elf | grep "proc_hier\|iam"
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB3/proc_hier/bin$ clear
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB3/proc_hier/bin$ ./proc_hier
+./proc_hierer.c -o proc_hier
+I am process 1
+pid = 7799 | ppid = 7781
+I am process 1.2
+pid = 7801 | ppid = 7799
+Process 1.2 pid is: 7801
+I am process 1.1
+pid = 7800 | ppid = 7799
+Process 1.1 pid is: 7800
+I am process 1.2.1
+pid = 7802 | ppid = 7801
+I am process 1.2.2
+pid = 7803 | ppid = 7801
+Process 1.2.2 pid is: 7803
+Process 1.2.1 pid is: 7802
+I am process 1.1.1
+pid = 7804 | ppid = 7800
+I am process 1.1.2
+pid = 7805 | ppid = 7800
+Process 1.1.2 pid is: 7805
+Process 1.1.1 pid is: 7804
+Process 1.1 is terminating
+Child terminated; parent exiting
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB3/proc_hier/bin$ Process 1.2 is terminating
+exit
+exit
+
+Script done on 2022-09-11 01:04:25-07:00 [COMMAND_EXIT_CODE="0"]

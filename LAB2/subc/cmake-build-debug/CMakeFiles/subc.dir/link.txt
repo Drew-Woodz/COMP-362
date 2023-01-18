@@ -1,0 +1,1 @@
+/usr/bin/cc -m64 -g -O0 -D_DEBUG -Wall -g -rdynamic CMakeFiles/subc.dir/subc.c.o -o subc 

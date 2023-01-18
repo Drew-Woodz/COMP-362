@@ -1,0 +1,112 @@
+Script started on 2022-09-05 22:00:08-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="117" LINES="58"]
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB2/subc/cmake-build-debug$ ./subc
+USAGE:
+   subc [ -h | --fromChars -+toChars [-i inputFile] [-o outputFile] ]
+
+DESCRIPTION:
+   This utility copies text from an input stream to an output stream replacing every
+   instance of a specific character in fromChars with a corresponding (position-wise)
+   character from toChars. Any characters in fromChars and in toChars that do not
+   have corresponding counterparts in the other one are ignored. If an input file is
+   provided, the content is read from that file; otherwise, the standard input is used.
+   If an output file is provided, then the modified content is written to that file;
+   otherwise, the standard output is used.
+
+OPTIONS:
+   --(followed by a string without separating space)
+     indicates all characters that will be replaced in the processed text
+   -+(followed by a string without separating space)
+     indicates the characters that will be used to replace corresponding
+     (position-wise) characters from fromChars in the processed text
+   -i (followed by input file name)
+     use the provided file as an input stream instead of standard input
+   -o (followed by output file name)
+     use the provided file as an output stream instead of standard output
+   -h prints this help message; it is also a default if no command line
+     arguments are provided
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB2/subc/cmake-build-debug$ 1@.1@/h
+USAGE:
+   subc [ -h | --fromChars -+toChars [-i inputFile] [-o outputFile] ]
+
+DESCRIPTION:
+   This utility copies text from an input stream to an output stream replacing every
+   instance of a specific character in fromChars with a corresponding (position-wise)
+   character from toChars. Any characters in fromChars and in toChars that do not
+   have corresponding counterparts in the other one are ignored. If an input file is
+   provided, the content is read from that file; otherwise, the standard input is used.
+   If an output file is provided, then the modified content is written to that file;
+   otherwise, the standard output is used.
+
+OPTIONS:
+   --(followed by a string without separating space)
+     indicates all characters that will be replaced in the processed text
+   -+(followed by a string without separating space)
+     indicates the characters that will be used to replace corresponding
+     (position-wise) characters from fromChars in the processed text
+   -i (followed by input file name)
+     use the provided file as an input stream instead of standard input
+   -o (followed by output file name)
+     use the provided file as an output stream instead of standard output
+   -h prints this help message; it is also a default if no command line
+     arguments are provided
+Error : target and/or replace characters not present.
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB2/subc/cmake-build-debug$ /subc---a--+x--issrc.txt--odest.txt
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB2/subc/cmake-build-debug$ ./subc --a -+x -i src.txt -o dest.txt
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB2/subc/cmake-build-debug$ ./subc --a -+x -i src.txt -o dest.txt
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB2/subc/cmake-build-debug$ ./subc --a -+x -i src.txt -o dest.txt
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB2/subc/cmake-build-debug$ ./subc --a -+x -i src.txt -o dest.txt
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB2/subc/cmake-build-debug$ cat dest.txt
+xbc
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB2/subc/cmake-build-debug$ subc -i src.txt -o dest.txt --a -+x
+Command 'subc' not found, did you mean:
+  command 'subs' from deb libsubtitles-perl (1.04-2)
+  command 'smbc' from deb smbc (1.2.2-4ubuntu1)
+Try: sudo apt install <deb name>
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB2/subc/cmake-build-debug$ subc -i src.txt -o dest.txt --a -+x
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB2/subc/cmake-build-debug$ cat dest.txt
+xbc
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB2/subc/cmake-build-debug$ ./subc -o dest.txt --a -i src.txt -+x
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB2/subc/cmake-build-debug$ cat dest.txt
+axc
+   axc
+      axc
+	 axc
+	    axc
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB2/subc/cmake-build-debug$ ./subc --a -o dest.txt -+x -i src.txt
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB2/subc/cmake-build-debug$ cat dest.txt
+ybc
+   ybc
+      ybc
+	 ybc
+	    ybc
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB2/subc/cmake-build-debug$ ./subc --a -+x -i abc.txtabc
+abz
+   abz
+      abz
+	 abz
+	    abz
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB2/subc/cmake-build-debug$ ./subc --a -+x
+aaaaaaaaaxxxxxxxxx^C
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB2/subc/cmake-build-debug$ ./subc --ab -+xyz
+abababxyxyxy^C
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB2/subc/cmake-build-debug$
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB2/subc/cmake-build-debug$ ./subc --ab -+xyz
+abababxyxyxy
+
+
+
+^C
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB2/subc/cmake-build-debug$ ./subc --abc -+xy
+abcxy
+
+WARNING - extraneous replacement character
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB2/subc/cmake-build-debug$ ./subc --ab-+xxyz
+axWARNING - extraneous replacement character
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB2/subc/cmake-build-debug$ ./subc --abc+-+xy
+abcxy
+
+WARNING - extraneous replacement character
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB2/subc/cmake-build-debug$ exit
+exit
+
+Script done on 2022-09-05 22:31:21-07:00 [COMMAND_EXIT_CODE="0"]

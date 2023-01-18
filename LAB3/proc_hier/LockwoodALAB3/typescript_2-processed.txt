@@ -1,0 +1,23 @@
+Script started on 2022-09-11 00:55:00-07:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="161" LINES="24"]
+psd-elfe|tgrepM"proc_hier\|iam"ier//COMP362/LAB3/rocessiid/bsud1.1dbr-pb99101iam96iamAB3/proc_hier/
+0 S andrew	7799	7781  0	 80   0 -   693 do_wai 00:54 pts/4    00:00:00 ./proc_hier
+0 R andrew	7800	7799 15	 80   0 -   693 -      00:54 pts/4    00:00:03 iam 1.1
+0 R andrew	7801	7799 15	 80   0 -   693 -      00:54 pts/4    00:00:03 iam 1.2
+0 R andrew	7802	7801 15	 80   0 -   693 -      00:54 pts/4    00:00:03 iam 1.2.1
+0 R andrew	7803	7801 15	 80   0 -   693 -      00:54 pts/4    00:00:03 iam 1.2.2
+0 R andrew	7804	7800 15	 80   0 -   693 -      00:54 pts/4    00:00:03 iam 1.1.1
+0 R andrew	7805	7800 15	 80   0 -   693 -      00:54 pts/4    00:00:03 iam 1.1.2
+0 S andrew	7816	7809  0	 80   0 -  4466 pipe_r 00:55 pts/5    00:00:00 grep --color=auto proc_hier\|iam
+kille-KILL78047805scidiof\1.1.1>e<process6idLof31.1.2>siid/bsud1.1dbr-pb99101iam96iamAB3/proc_hier/
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB3/proc_hier/bin$ psl-elfI|Lgrep4"proc_hier\|iam"
+0 S andrew	7801	 770  7	 80   0 -   693 do_wai 00:54 pts/4    00:00:32 iam 1.2
+0 R andrew	7802	7801 20	 80   0 -   693 -      00:54 pts/4    00:01:28 iam 1.2.1
+0 R andrew	7803	7801 20	 80   0 -   693 -      00:54 pts/4    00:01:28 iam 1.2.2
+0 S andrew	7928	7809  0	 80   0 -  4466 pipe_r 01:02 pts/5    00:00:00 grep --color=auto proc_hier\|iam
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB3/proc_hier/bin$ kille-KILLg7802"7803_hier\|iam"
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB3/proc_hier/bin$ psl-elfI|Lgrep2"proc_hier\|iam"
+0 S andrew	7937	7809  0	 80   0 -  4466 pipe_r 01:03 pts/5    00:00:00 grep --color=auto proc_hier\|iam
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB3/proc_hier/bin$ exitelf | grep "proc_hier\|iam"
+exit
+
+Script done on 2022-09-11 01:04:32-07:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,3 @@
+/home/andrew/Projects/COMP362/LAB8/solvency/cmake-build-debug/CMakeFiles/solvency.dir
+/home/andrew/Projects/COMP362/LAB8/solvency/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/andrew/Projects/COMP362/LAB8/solvency/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+/home/andrew/Projects/COMP362/LAB2/subc/cmake-build-debug/CMakeFiles/subc.dir
+/home/andrew/Projects/COMP362/LAB2/subc/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/andrew/Projects/COMP362/LAB2/subc/cmake-build-debug/CMakeFiles/rebuild_cache.dir

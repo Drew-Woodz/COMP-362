@@ -1,0 +1,38 @@
+Script started on 2022-09-11 00:55:36-07:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+0671ew@andrew-VirtualBox:~/Projects/COMP362/LAB3/proc_hier/bin$ 177orgdb -p 11770
+1801
+[sudo] password for andrew:
+GNU gdb (Ubuntu 12.0.90-0ubuntu1) 12.0.90
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+Attaching to process 7801
+Reading symbols from /home/andrew/Projects/COMP362/LAB3/proc_hier/bin/iam...
+Reading symbols from /lib/x86_64-linux-gnu/libc.so.6...
+Reading symbols from /usr/lib/debug/.build-id/69/389d485a9793dbe873f0ea2c93e02efaa9aa3d.debug...
+Reading symbols from /lib64/ld-linux-x86-64.so.2...
+Reading symbols from /usr/lib/debug/.build-id/61/ef896a699bb1c2e4e231642b2e1688b2f1a61e.debug...
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+0x00005582345aa1ee in main (argc=2, argv=0x7ffeb799ba48) at /home/andrew/Projects/COMP362/LAB3/proc_hier/iam.c:12
+12	   while (i == 0) /* NOTE: this is an endless loop; use gdb to change the value of i and continue */
+(gdb) set var i = 1
+(gdb) continue
+Continuing.
+[Inferior 1 (process 7801) exited normally]
+(gdb) q
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB3/proc_hier/bin$ exit
+exit
+
+Script done on 2022-09-11 01:04:42-07:00 [COMMAND_EXIT_CODE="0"]

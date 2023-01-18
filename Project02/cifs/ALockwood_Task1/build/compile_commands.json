@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/andrew/Projects/COMP362/Project02/cifs/build",
+  "command": "/usr/bin/c89-gcc  -I/usr/include/fuse -I/home/andrew/Projects/COMP362/Project02/cifs/inc  -D_FILE_OFFSET_BITS=64 -g -Wall --pedantic -g -O0 -D_DEBUG -DNO_FUSE_DEBUG -std=gnu11 -o CMakeFiles/cifs.dir/src/test_cifs.c.o -c /home/andrew/Projects/COMP362/Project02/cifs/src/test_cifs.c",
+  "file": "/home/andrew/Projects/COMP362/Project02/cifs/src/test_cifs.c"
+},
+{
+  "directory": "/home/andrew/Projects/COMP362/Project02/cifs/build",
+  "command": "/usr/bin/c89-gcc  -I/usr/include/fuse -I/home/andrew/Projects/COMP362/Project02/cifs/inc  -D_FILE_OFFSET_BITS=64 -g -Wall --pedantic -g -O0 -D_DEBUG -DNO_FUSE_DEBUG -std=gnu11 -o CMakeFiles/cifs.dir/src/cifs.c.o -c /home/andrew/Projects/COMP362/Project02/cifs/src/cifs.c",
+  "file": "/home/andrew/Projects/COMP362/Project02/cifs/src/cifs.c"
+},
+{
+  "directory": "/home/andrew/Projects/COMP362/Project02/cifs/build",
+  "command": "/usr/bin/c89-gcc  -I/usr/include/fuse -I/home/andrew/Projects/COMP362/Project02/cifs/inc  -D_FILE_OFFSET_BITS=64 -g -Wall --pedantic -g -O0 -D_DEBUG -DNO_FUSE_DEBUG -std=gnu11 -o CMakeFiles/blockVolume.dir/src/blockVolume.c.o -c /home/andrew/Projects/COMP362/Project02/cifs/src/blockVolume.c",
+  "file": "/home/andrew/Projects/COMP362/Project02/cifs/src/blockVolume.c"
+}
+]

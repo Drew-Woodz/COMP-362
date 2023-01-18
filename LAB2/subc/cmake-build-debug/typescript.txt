@@ -1,0 +1,112 @@
+Script started on 2022-09-05 22:00:08-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="117" LINES="58"]
+[?2004h]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ [K]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ [K]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ [K]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ [K]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ [K]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ [K]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ [K]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ [K]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ ./subc
+[?2004lUSAGE:
+   subc [ -h | --fromChars -+toChars [-i inputFile] [-o outputFile] ]
+
+DESCRIPTION:
+   This utility copies text from an input stream to an output stream replacing every 
+   instance of a specific character in fromChars with a corresponding (position-wise) 
+   character from toChars. Any characters in fromChars and in toChars that do not 
+   have corresponding counterparts in the other one are ignored. If an input file is 
+   provided, the content is read from that file; otherwise, the standard input is used. 
+   If an output file is provided, then the modified content is written to that file; 
+   otherwise, the standard output is used.
+
+OPTIONS:
+   --(followed by a string without separating space)
+     indicates all characters that will be replaced in the processed text
+   -+(followed by a string without separating space) 
+     indicates the characters that will be used to replace corresponding 
+     (position-wise) characters from fromChars in the processed text
+   -i (followed by input file name) 
+     use the provided file as an input stream instead of standard input 
+   -o (followed by output file name) 
+     use the provided file as an output stream instead of standard output 
+   -h prints this help message; it is also a default if no command line
+     arguments are provided
+[?2004h]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ subc -h[1@.[1@/
+[?2004lUSAGE:
+   subc [ -h | --fromChars -+toChars [-i inputFile] [-o outputFile] ]
+
+DESCRIPTION:
+   This utility copies text from an input stream to an output stream replacing every 
+   instance of a specific character in fromChars with a corresponding (position-wise) 
+   character from toChars. Any characters in fromChars and in toChars that do not 
+   have corresponding counterparts in the other one are ignored. If an input file is 
+   provided, the content is read from that file; otherwise, the standard input is used. 
+   If an output file is provided, then the modified content is written to that file; 
+   otherwise, the standard output is used.
+
+OPTIONS:
+   --(followed by a string without separating space)
+     indicates all characters that will be replaced in the processed text
+   -+(followed by a string without separating space) 
+     indicates the characters that will be used to replace corresponding 
+     (position-wise) characters from fromChars in the processed text
+   -i (followed by input file name) 
+     use the provided file as an input stream instead of standard input 
+   -o (followed by output file name) 
+     use the provided file as an output stream instead of standard output 
+   -h prints this help message; it is also a default if no command line
+     arguments are provided
+Error : target and/or replace characters not present.
+[?2004h]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ [7msubc --a -+x -i src.txt -o d[27m[7me[27m[7mst.txt [27m[A]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ subc --a -+x -i src.txt -o dest.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.subc --a -+x -i src.txt -o d[1@e[A]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ [C/subc --a -+x -i src.txt -o [1@d[A]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ [C[C
+[K[A]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ ./subc --a -+x -i src.txt -o dest.txt [A]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ [C[C
+[K[A]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ ./subc --a -+x -i src.txt -o dest.txt [A]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ [C[C
+[K[A]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ ./subc --a -+x -i src.txt -o dest.txt [A]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ [C[C
+[K[A]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ ./subc --a -+x -i src.txt -o dest.txt [K]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ ./subc --a -+x -i src.txt -o dest.txt [K]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ ./subc --a -+x -i src.txt -o dest.txt [K]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ ./subc --a -+x -i src.txt -o dest.txt [K]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ ./subc --a -+x -i src.txt -o dest.txt [K]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ ./subc --a -+x -i src.txt -o dest.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ cat dest.txt
+[?2004lxbc
+[?2004h]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ [7msubc -i src.txt -o dest.txt --a -+x[27msubc -i src.txt -o dest.txt --a -+x
+[?2004lCommand 'subc' not found, did you mean:
+  command 'subs' from deb libsubtitles-perl (1.04-2)
+  command 'smbc' from deb smbc (1.2.2-4ubuntu1)
+Try: sudo apt install <deb name>
+[?2004h]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ subc -i src.txt -o dest.txt --a -+x[1@.[1@/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ cat dest.txt
+[?2004lxbc
+[?2004h]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ ./^?[K[7msubc -o dest.txt --a -i src.txt -+x[27msubc -o dest.txt --a -i src.txt -+x[1@b[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1@a[1@b[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ cat dest.txt
+[?2004laxc
+   axc
+      axc
+         axc
+            axc
+[?2004h]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ ./^?[K[K/[7msubc --a -o dest.txt -+x -i src.txt [27msubc --a -o dest.txt -+x -i src.txt [1P[1P[1P[1P[1@d[1@e[1@s[1@t[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1@a[1@b[1@c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@y[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ cat dest/t[K[K.txt
+[?2004lybc
+   ybc
+      ybc
+         ybc
+            ybc
+[?2004h]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ ./[7msubc --a -+x -i src.txt[27msubc --a -+x -i src.txtabc[K[K[K[1P.txt[1P.txt[1P.txta.txtb.txtc.txt[2@^[[2@[D[1P[1P[2P[1P[1P[1@-[1@c[C[C[C[C[1P[1@z[C[C[C[C[C[C[C[C[C[C[C
+[?2004labz
+   abz
+      abz
+         abz
+            abz
+[?2004h]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ [K]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ [K]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ [K]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ [K]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ ./[7msubc --a -+x[27msubc --a -+x
+[?2004laaaaaaaaaxxxxxxxxx^C
+[?2004h]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ ./^?[K[K/[7msubc --ab -+xyz[27msubc --ab -+xyz
+[?2004labababxyxyxy^C
+[?2004h]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ 
+[?2004l[?2004h]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ ./subc --ab -+xyz
+[?2004labababxyxyxy
+
+
+
+^C
+[?2004h]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ ./^?[K[7msubc --abc -+xy[27msubc --abc -+xy
+[?2004lan bcxy 
+
+WARNING - extraneous replacement character
+[?2004h]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ ./subc --abc -+xy -+xyz[3P -+x
+[?2004laxWARNING - extraneous replacement character
+[?2004h]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ ./subc --a -+x[K[K[K[K[K[K[K[K[K[K[K[K[7msubc --abc -+xy[27msubc --abc -+xy
+[?2004labcxy 
+
+WARNING - extraneous replacement character
+[?2004h]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB2/subc/cmake-build-debug[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB2/subc/cmake-build-debug[00m$ exit
+[?2004lexit
+
+Script done on 2022-09-05 22:31:21-07:00 [COMMAND_EXIT_CODE="0"]

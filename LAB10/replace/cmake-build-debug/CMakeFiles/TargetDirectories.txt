@@ -1,0 +1,3 @@
+/home/andrew/Projects/COMP362/LAB10/cmake-build-debug/CMakeFiles/replace.dir
+/home/andrew/Projects/COMP362/LAB10/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/andrew/Projects/COMP362/LAB10/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/andrew/Projects/COMP362/LAB8/solvency/cmake-build-debug",
+  "command": "/usr/bin/cc    -D_FILE_OFFSET_BITS=64 -g -Wall --pedantic -g -O0 -D_DEBUG -std=gnu11 -o CMakeFiles/solvency.dir/src/arrays.c.o -c /home/andrew/Projects/COMP362/LAB8/solvency/src/arrays.c",
+  "file": "/home/andrew/Projects/COMP362/LAB8/solvency/src/arrays.c"
+},
+{
+  "directory": "/home/andrew/Projects/COMP362/LAB8/solvency/cmake-build-debug",
+  "command": "/usr/bin/cc    -D_FILE_OFFSET_BITS=64 -g -Wall --pedantic -g -O0 -D_DEBUG -std=gnu11 -o CMakeFiles/solvency.dir/src/bank.c.o -c /home/andrew/Projects/COMP362/LAB8/solvency/src/bank.c",
+  "file": "/home/andrew/Projects/COMP362/LAB8/solvency/src/bank.c"
+},
+{
+  "directory": "/home/andrew/Projects/COMP362/LAB8/solvency/cmake-build-debug",
+  "command": "/usr/bin/cc    -D_FILE_OFFSET_BITS=64 -g -Wall --pedantic -g -O0 -D_DEBUG -std=gnu11 -o CMakeFiles/solvency.dir/src/solvency.c.o -c /home/andrew/Projects/COMP362/LAB8/solvency/src/solvency.c",
+  "file": "/home/andrew/Projects/COMP362/LAB8/solvency/src/solvency.c"
+}
+]

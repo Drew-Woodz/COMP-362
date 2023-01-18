@@ -1,0 +1,3 @@
+/home/andrew/Projects/COMP362/LAB5/cmake-build-debug/CMakeFiles/matrixMult.dir
+/home/andrew/Projects/COMP362/LAB5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/andrew/Projects/COMP362/LAB5/cmake-build-debug/CMakeFiles/rebuild_cache.dir

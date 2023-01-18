@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/andrew/Projects/COMP362/LAB9/cmake-build-debug",
+  "command": "/usr/bin/cc  -I/home/andrew/Projects/COMP362/LAB9/inc  -D_FILE_OFFSET_BITS=64 -g -Wall --pedantic -g -O0 -D_DEBUG -std=gnu11 -o CMakeFiles/inverted.dir/src/inverted.c.o -c /home/andrew/Projects/COMP362/LAB9/src/inverted.c",
+  "file": "/home/andrew/Projects/COMP362/LAB9/src/inverted.c"
+},
+{
+  "directory": "/home/andrew/Projects/COMP362/LAB9/cmake-build-debug",
+  "command": "/usr/bin/cc  -I/home/andrew/Projects/COMP362/LAB9/inc  -D_FILE_OFFSET_BITS=64 -g -Wall --pedantic -g -O0 -D_DEBUG -std=gnu11 -o CMakeFiles/inverted.dir/src/testInverted.c.o -c /home/andrew/Projects/COMP362/LAB9/src/testInverted.c",
+  "file": "/home/andrew/Projects/COMP362/LAB9/src/testInverted.c"
+}
+]

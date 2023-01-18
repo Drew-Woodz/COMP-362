@@ -1,0 +1,123 @@
+Script started on 2022-09-26 17:53:38-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="116" LINES="61"]
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB5/cmake-build-debug/bin$ ls -al
+total 56
+drwxrwxr-x 2 andrew andrew  4096 Sep 26 17:53 .
+drwxrwxr-x 4 andrew andrew  4096 Sep 25 13:25 ..
+-rw-rw-r-- 1 andrew andrew   164 Sep 25 22:24 in2.txt
+-rw-rw-r-- 1 andrew andrew   102 Sep 26 17:02 in3.txt
+-rw-rw-r-- 1 andrew andrew  6479 Sep 26 17:14 in4.txt
+-rw-rw-r-- 1 andrew andrew   834 Sep 26 17:43 in5.txt
+-rw-rw-r-- 1 andrew andrew    82 Sep 25 21:50 in.txt
+-rwxrwxr-x 1 andrew andrew 22720 Sep 25 22:44 matrixMult
+-rw-rw-r-- 1 andrew andrew     0 Sep 26 17:53 typescript.txt
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB5/cmake-build-debug/bin$ ./matrixMult in.txt
+
+MATRIX A1
+1 4
+2 5
+3 6
+
+MATRIX B1
+8 7 6
+5 4 3
+
+MATRIX A1 x B1
+28 23 18
+41 34 27
+54 45 36
+
+MATRIX A2
+4 2
+5 1
+5 2
+6 3
+
+MATRIX B2
+7 4 8 9 8
+7 6 5 4 3
+
+MATRIX A2 x B2
+42 28 42 44 38
+42 26 45 49 43
+49 32 50 53 46
+63 42 63 66 57
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB5/cmake-build-debug/bin$ ./matrixMult in2.txt
+
+MATRIX A1
+4 6 1 2 8 6
+6 9 5 7 2 6
+5 8 10 5 2 6
+8 6 8 2 4 14
+1 5 8 9 4 7
+
+MATRIX B1
+8 4 7 1
+3 5 2 3
+6 8 2 4
+9 8 2 0
+2 6 9 6
+3 5 2 7
+
+MATRIX A1 x B1
+108 148 130 116
+190 207 114 107
+191 222 111 123
+198 236 152 180
+181 224 101 121
+
+MATRIX A2
+1 4 5 4
+4 2 9 4
+
+MATRIX B2
+5 7 9
+5 2 2
+2 6 9
+3 7 8
+
+MATRIX A2 x B2
+47 73 94
+60 114 153
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB5/cmake-build-debug/bin$ ./matrixMult in3.txt
+
+MATRIX A1
+1 3
+7 8
+4 1
+9 4
+6 2
+7 7
+10 2
+7 1
+5 9
+8 6
+
+MATRIX B1
+6 8 2 7 9 2 5 4
+5 8 5 2 4 9 6 8
+
+MATRIX A1 x B1
+21 32 17 13 21 29 23 28
+82 120 54 65 95 86 83 92
+29 40 13 30 40 17 26 24
+74 104 38 71 97 54 69 68
+46 64 22 46 62 30 42 40
+77 112 49 63 91 77 77 84
+70 96 30 74 98 38 62 56
+47 64 19 51 67 23 41 36
+75 112 55 53 81 91 79 92
+78 112 46 68 96 70 76 80
+
+MATRIX A2
+562 362
+
+MATRIX B2
+945
+852
+
+MATRIX A2 x B2
+839514
+andrew@andrew-VirtualBox:~/Projects/COMP362/LAB5/cmake-build-debug/bin$ exit
+exit
+
+Script done on 2022-09-26 17:54:40-07:00 [COMMAND_EXIT_CODE="0"]

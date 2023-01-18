@@ -1,0 +1,4 @@
+/home/andrew/Projects/COMP362/LAB3/proc_hier/CMakeFiles/proc_hier.dir
+/home/andrew/Projects/COMP362/LAB3/proc_hier/CMakeFiles/iam.dir
+/home/andrew/Projects/COMP362/LAB3/proc_hier/CMakeFiles/edit_cache.dir
+/home/andrew/Projects/COMP362/LAB3/proc_hier/CMakeFiles/rebuild_cache.dir

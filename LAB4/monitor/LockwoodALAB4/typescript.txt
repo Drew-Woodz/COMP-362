@@ -1,0 +1,187 @@
+Script started on 2022-09-18 22:07:23-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="125" LINES="39"]
+[?2004h]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB4/monitor/cmake-build-debug/bin[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB4/monitor/cmake-build-debug/bin[00m$ cat typescript_3.txt | perl -pe 's/\e([^\[\]]|\[.*?[a-zA-Z]|\].*?\a)//g' | col -b > typescript_3-processed.txt[A]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB4/monitor/cmake-build-debug/bin[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB4/monitor/cmake-build-debug/bin[00m$ [22Pscript typescript_3.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd bin[K[1Plearsudo gdb -p 6405clear[Ksudo gdb -p 6270 iamclear[Ksudo gdb -p 6270 iamclear[Ksudo gdb -p 6405clear[Kd binscript typescript_3.txtcat typescript_3.txt | perl -pe 's/\e([^\[\]]|\[.*?[a-zA-Z]|\].*?\a)//g' | col -b > typescript_3-processed.txt[A]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB4/monitor/cmake-build-debug/bin[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB4/monitor/cmake-build-debug/bin[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat typescript_3.txt | perl -pe 's/\e([^\[\]]|\[.*?[a-zA-Z]|\].*?\a)//g' | col -b > typescript_3-processed.txt[A]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB4/monitor/cmake-build-debug/bin[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB4/monitor/cmake-build-debug/bin[00m$ [22Pscript typescript_3.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd bin[K[1Pleard binscript typescript_3.txtcat typescript_3.txt | perl -pe 's/\e([^\[\]]|\[.*?[a-zA-Z]|\].*?\a)//g' | col -b > typescript_3-processed.txt[A]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB4/monitor/cmake-build-debug/bin[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB4/monitor/cmake-build-debug/bin[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7m./monitor 10 2 10 10[27m./monitor 10 2 10 10
+[?2004lMONITOR: Message queue /MONITOR created.
+MONITOR: Message queue /NODE_0 created.
+MONITOR: Message queue /NODE_1 created.
+MONITOR TEMPERATURE: 10.0000
+NODE 1 TEMPERATURE: 10.0000
+NODE 0 TEMPERATURE: 10.0000
+
+MONITOR TEMPERATURE: 6.6667
+NODE 0 TEMPERATURE: 8.6667
+NODE 1 TEMPERATURE: 8.6667
+
+MONITOR TEMPERATURE: 5.1111
+NODE 0 TEMPERATURE: 7.2444
+NODE 1 TEMPERATURE: 7.2444
+
+MONITOR TEMPERATURE: 4.1185
+NODE 0 TEMPERATURE: 5.9941
+NODE 1 TEMPERATURE: 5.9941
+
+MONITOR TEMPERATURE: 3.3709
+NODE 0 TEMPERATURE: 4.9448
+NODE 1 TEMPERATURE: 4.9448
+
+MONITOR TEMPERATURE: 2.7719
+NODE 0 TEMPERATURE: 4.0756
+NODE 1 TEMPERATURE: 4.0756
+
+MONITOR TEMPERATURE: 2.2825
+NODE 0 TEMPERATURE: 3.3584
+NODE 1 TEMPERATURE: 3.3584
+
+MONITOR TEMPERATURE: 1.8803
+NODE 0 TEMPERATURE: 2.7671
+NODE 1 TEMPERATURE: 2.7671
+
+MONITOR TEMPERATURE: 1.5491
+NODE 0 TEMPERATURE: 2.2799
+NODE 1 TEMPERATURE: 2.2799
+
+MONITOR TEMPERATURE: 1.2764
+NODE 0 TEMPERATURE: 1.8785
+NODE 1 TEMPERATURE: 1.8785
+
+MONITOR TEMPERATURE: 1.0516
+NODE 0 TEMPERATURE: 1.5478
+NODE 1 TEMPERATURE: 1.5478
+
+MONITOR TEMPERATURE: 0.8665
+NODE 0 TEMPERATURE: 1.2752
+NODE 1 TEMPERATURE: 1.2752
+
+MONITOR TEMPERATURE: 0.7139
+NODE 0 TEMPERATURE: 1.0507
+NODE 1 TEMPERATURE: 1.0507
+
+MONITOR TEMPERATURE: 0.5882
+NODE 0 TEMPERATURE: 0.8657
+NODE 1 TEMPERATURE: 0.8657
+
+MONITOR TEMPERATURE: 0.4846
+NODE 0 TEMPERATURE: 0.7133
+NODE 1 TEMPERATURE: 0.7133
+
+MONITOR TEMPERATURE: 0.3993
+NODE 0 TEMPERATURE: 0.5877
+NODE 1 TEMPERATURE: 0.5877
+
+MONITOR TEMPERATURE: 0.3290
+NODE 0 TEMPERATURE: 0.4842
+NODE 1 TEMPERATURE: 0.4842
+
+MONITOR TEMPERATURE: 0.2711
+NODE 0 TEMPERATURE: 0.3990
+NODE 1 TEMPERATURE: 0.3990
+
+MONITOR TEMPERATURE: 0.2233
+NODE 0 TEMPERATURE: 0.3287
+NODE 1 TEMPERATURE: 0.3287
+
+MONITOR TEMPERATURE: 0.1840
+NODE 0 TEMPERATURE: 0.2708
+NODE 1 TEMPERATURE: 0.2708
+
+MONITOR TEMPERATURE: 0.1516
+NODE 0 TEMPERATURE: 0.2231
+NODE 1 TEMPERATURE: 0.2231
+
+MONITOR TEMPERATURE: 0.1249
+NODE 0 TEMPERATURE: 0.1839
+NODE 1 TEMPERATURE: 0.1839
+
+MONITOR TEMPERATURE: 0.1029
+NODE 0 TEMPERATURE: 0.1515
+NODE 1 TEMPERATURE: 0.1515
+
+MONITOR TEMPERATURE: 0.0848
+NODE 0 TEMPERATURE: 0.1248
+NODE 1 TEMPERATURE: 0.1248
+
+MONITOR TEMPERATURE: 0.0699
+NODE 0 TEMPERATURE: 0.1028
+NODE 1 TEMPERATURE: 0.1028
+
+MONITOR TEMPERATURE: 0.0576
+NODE 0 TEMPERATURE: 0.0847
+NODE 1 TEMPERATURE: 0.0847
+
+MONITOR TEMPERATURE: 0.0474
+NODE 0 TEMPERATURE: 0.0698
+NODE 1 TEMPERATURE: 0.0698
+
+MONITOR TEMPERATURE: 0.0391
+NODE 0 TEMPERATURE: 0.0575
+NODE 1 TEMPERATURE: 0.0575
+
+MONITOR TEMPERATURE: 0.0322
+NODE 0 TEMPERATURE: 0.0474
+NODE 1 TEMPERATURE: 0.0474
+
+MONITOR TEMPERATURE: 0.0265
+NODE 0 TEMPERATURE: 0.0390
+NODE 1 TEMPERATURE: 0.0390
+
+MONITOR TEMPERATURE: 0.0219
+NODE 0 TEMPERATURE: 0.0322
+NODE 1 TEMPERATURE: 0.0322
+
+MONITOR TEMPERATURE: 0.0180
+NODE 0 TEMPERATURE: 0.0265
+NODE 1 TEMPERATURE: 0.0265
+
+MONITOR TEMPERATURE: 0.0148
+NODE 0 TEMPERATURE: 0.0218
+NODE 1 TEMPERATURE: 0.0218
+
+MONITOR TEMPERATURE: 0.0122
+NODE 0 TEMPERATURE: 0.0180
+NODE 1 TEMPERATURE: 0.0180
+
+MONITOR TEMPERATURE: 0.0101
+NODE 0 TEMPERATURE: 0.0148
+NODE 1 TEMPERATURE: 0.0148
+
+MONITOR TEMPERATURE: 0.0083
+NODE 0 TEMPERATURE: 0.0122
+NODE 1 TEMPERATURE: 0.0122
+
+MONITOR TEMPERATURE: 0.0068
+NODE 0 TEMPERATURE: 0.0101
+NODE 1 TEMPERATURE: 0.0101
+
+MONITOR TEMPERATURE: 0.0056
+NODE 0 TEMPERATURE: 0.0083
+NODE 1 TEMPERATURE: 0.0083
+
+MONITOR TEMPERATURE: 0.0046
+NODE 0 TEMPERATURE: 0.0068
+NODE 1 TEMPERATURE: 0.0068
+
+MONITOR TEMPERATURE: 0.0038
+NODE 0 TEMPERATURE: 0.0056
+NODE 1 TEMPERATURE: 0.0056
+
+MONITOR TEMPERATURE: 0.0032
+NODE 0 TEMPERATURE: 0.0046
+NODE 1 TEMPERATURE: 0.0046
+
+MONITOR TEMPERATURE: 0.0026
+STABLE TERMPERATURE DETECTED.
+MONITOR TERMINATING...
+MONITOR: Message queue /NODE_0 removed.
+MONITOR: Message queue /NODE_1 removed.
+[?2004h]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB4/monitor/cmake-build-debug/bin[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB4/monitor/cmake-build-debug/bin[00m$ NODE 0 TEMPERATURE: 0.0038
+NODE 0 TERMINATING...
+NODE 1 TEMPERATURE: 0.0038
+NODE 1 TERMINATING...
+
+[?2004l[?2004h]0;andrew@andrew-VirtualBox: ~/Projects/COMP362/LAB4/monitor/cmake-build-debug/bin[01;32mandrew@andrew-VirtualBox[00m:[01;34m~/Projects/COMP362/LAB4/monitor/cmake-build-debug/bin[00m$ ./monitor 10 2 10 10[1@5[C[C[C[1P[C[C[C[C[C[C 11 10 10[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+[?2004lexit
+
+Script done on 2022-09-18 22:09:18-07:00 [COMMAND_EXIT_CODE="0"]
